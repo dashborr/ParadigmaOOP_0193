@@ -19,4 +19,14 @@ public:
 int main(){
     Barang elektronik;
     Barang nonElektronik;
+
+    elektronik.nama = "Hp";
+    elektronik.jumlah = 20;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "10-04-2025";
+
+    nonElektronik.nama = "meja";
+    nonElektronik.jumlah = 10;
+    nonElektronik.kategori = "Non Elektronik";
+    nonElektronik.tanggalProduksi = "15-03-2020";
 }

@@ -15,3 +15,5 @@ public:
         cout << "Tanggal Produksi : " << tanggalProduksi << endl;
     }
 }; //batas class
+
+int main

@@ -8,7 +8,7 @@ public:
     string kategori;
     string tanggalProduksi;
 
-    void printData() {
+    void tampilkanspesifikasi() {
         cout << "Nama Barang : " << nama << endl;
         cout << "Jumlah : " << jumlah << endl;
         cout << "Kategori : " << kategori << endl;
@@ -29,4 +29,7 @@ int main(){
     nonElektronik.jumlah = 10;
     nonElektronik.kategori = "Non Elektronik";
     nonElektronik.tanggalProduksi = "15-03-2020";
+
+    elektronik.tampilkanspesifikasi();
+    nonElektronik.tampilkanspesifikasi();
 }

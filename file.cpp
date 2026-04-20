@@ -1,5 +1,5 @@
 #include <iostream>
-using namesapace std;
+using namespace std;
 
 class Mahasiswa{
     float nilai;
@@ -13,5 +13,6 @@ class Mahasiswa{
 
 int main(){
     Mahasiswa mhs;
-    mhs.nim = 2022;   
+    mhs.nim = 2022; 
+    mhs.nama = "abra"; 
 }

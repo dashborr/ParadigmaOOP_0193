@@ -11,5 +11,7 @@ class Mahasiswa{
     }
 } //batas class
 
-int main(){   
+int main(){
+    Mahasiswa mhs;
+    mhs.nim = 2022;   
 }

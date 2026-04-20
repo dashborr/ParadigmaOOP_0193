@@ -16,4 +16,7 @@ public:
     }
 }; //batas class
 
-int main
+int main(){
+    Barang elektronik;
+    Barang nonElektronik;
+}
